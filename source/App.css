@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #17212c;
+    color: #ffffff;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 24px 16px 0;
+}
+
+.navigation a {
+    color: #c7d2dc;
+    text-decoration: none;
+}
+
+.navigation a.active {
+    color: #9fe29f;
+    font-weight: 700;
+}
+
+.app {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: #1a971a;
+}
+
+label,
+input {
+    display: block;
+    margin: 12px auto;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #5f6f7f;
+    border-radius: 4px;
+    font: inherit;
+}
+
+button {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 4px;
+    background: #1a971a;
+    color: #ffffff;
+    cursor: pointer;
+    font: inherit;
+}
+
+button:hover {
+    background: #147814;
+}
+
+.course-list {
+    margin: 48px auto 0;
+    max-width: 640px;
+}
+
+.courses {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.course-card {
+    border: 1px solid #5f6f7f;
+    border-radius: 4px;
+    padding: 16px 12px;
+}
+
+.course-card h3 {
+    margin: 0;
+    color: #9fe29f;
+    font-size: 16px;
+}
+
+.course-card p {
+    margin: 8px 0 0;
+    color: #c7d2dc;
+    font-size: 14px;
+    line-height: 1.4;
+}
